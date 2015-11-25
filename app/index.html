@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" ng-app="kokbokApp">
+<head>
+  <meta charset="utf-8">
+  <title>Kokbok</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<body ng-controller="KokbokListCtrl">
+  <h1>Kokbok</h1>
+  <div class="container">
+    <div class="row well">
+        Search: <input ng-model="query">
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-8">
+      </div>
+      <div class="col-xs-6 col-lg-4">
+      </div>
+    </div>
+    <div class="row" ng-repeat="recepie in recepies | filter:query">
+      <div class="col-xs-12 col-sm-6 col-lg-8">
+        {{recepie.name}}
+      </div>
+      <div class="col-xs-6 col-lg-4 description">
+        {{recepie.description[0]}}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

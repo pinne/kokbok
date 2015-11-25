@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Chokladsufflé",
+    "description": [
+      "En sufflé ska få yta men inuti ska den vara fluffig och krämig i konsistensen. Det kan vara svårt att få till en sufflé, men med lite övning ger det snabbt färdighet.",
+      "Om sufflén sjunker kan de bero på att den stått för länge i ugnen."
+    ],
+    "ingredients": [
+      { "name": "smör", "amount": "25", "unit": "g" },
+      { "name": "mjöl", "amount": "25", "unit": "g" },
+      { "name": "mjölk", "amount": "2,5", "unit": "dl" },
+      { "name": "choklad", "amount": "40", "unit": "g" },
+      { "name": "kakao", "amount": "10", "unit": "g" },
+      { "name": "socker", "amount": "35", "unit": "g" },
+      { "name": "Cointreau", "amount": "2", "unit": "cl" },
+      { "name": "äggulor", "amount": "2", "unit": "st" },
+      { "name": "äggvitor", "amount": "2", "unit": "st" }
+    ],
+    "steps": [
+      "Sätt ugnen på 200 grader.",
+      "Smält smöret i en kastrull. Smält sedan chokladen i mjölken i en annan kastrull och tillsätt kakao. Blanda chokladmjölken med det smälta smöret i en bunke.",
+      "Tillsätt mjöl under omrörning. Rör sedan försiktigt i äggulorna i den fingervarma smeten.",
+      "Vispa äggvitorna till skum men inte för hårt, då kan sufflén få svårt att resa sig. Smaksätt med likören och vänd sen ner i smeten.",
+      "Smörj och sockra 4 timbalformar eller 4 små formar med rak kant, cirka 8 1/2 centimeter i diameter och 6 centimeter hög. Sockret gör att sufflén får lättare att resa sig och gör också att ytan blir knaprig.",
+      "Häll smeten i formarna och grädda dem i nedre delen av ugnen i cirka 15-20 minuter. Servera genast. "
+    ]
+  },
+  { "name": "Linssoppa",
+    "description": [
+      "En god och nyttig soppa."
+    ]
+  },
+  { "name": "Braxpudding",
+    "description": [
+      "Billigt och äckligt."
+    ]
+  }
+]
