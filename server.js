@@ -3,6 +3,18 @@ var app = express();
 var path = require('path');
 app.use(express.static('app'));
 
+/*
+ * REST URI sketch:
+ *
+ * Path                             Content
+ * /                                index html file
+ * /recepies                        list of recepies
+ * /recepies/<recepie_id>           certain recepie
+ * /recepies?<search term>          free text search name
+ * /recepies?desc=<search term>     free text search description
+ *
+ */
+
 var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
@@ -10,7 +22,6 @@ var server = app.listen(3000, function () {
   console.log('Example app listening at http://%s:%s', host, port);
 });
 
-// respond with "Hello World!" on the homepage
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/app/index.html'));
 });
